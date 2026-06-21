@@ -1,4 +1,4 @@
-# 🏡 Estate Project - AI-Powered Real Estate Platform
+# 🏡 NestHub - AI-Powered Real Estate Platform
 
 A premium, full-stack real estate listing and rental management platform. This project features robust property browsing, user/admin authentication (including Google OAuth), a dynamic admin CRUD dashboard, custom automated AI email responders, and an integrated Machine Learning model to predict rental prices.
 
