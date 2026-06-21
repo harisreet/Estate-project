@@ -79,13 +79,7 @@ graph TD
 
 ### 🤖 AI & Automation Integration
 - **FastMail Auto-Responder**: Whenever a user reaches out via the property contact/submission form, they receive a detailed email checklist outlining properties requirements (title, square footage, amenities, images, etc.). Concurrently, notifications are sent directly to the site administrator.
-- **Machine Learning Rent Prediction**: A trained Scikit-Learn model (`rent_model.pkl`) predicts monthly rent prices based on user inputs. The backend performs live feature engineering:
-  - $\text{floor\_ratio} = \frac{\text{current\_floor}}{\text{total\_floors} + 1}$
-  - $\text{is\_high\_floor} = 1 \text{ if } \text{current\_floor} > (\text{total\_floors} \times 0.5) \text{ else } 0$
-  - $\text{bathroom\_per\_bhk} = \frac{\text{bathroom}}{\text{bhk}}$
-  - $\text{bhk\_per\_sqft} = \frac{\text{bhk}}{\text{area}}$
-  - Encodes categorical properties (furnishing, area type, tenant preference) dynamically using `encoders2.pkl`.
-
+- **Machine Learning Rent Prediction**: A trained Scikit-Learn model (`rent_model.pkl`) predicts monthly rent prices based on user inputs.
 ---
 
 ## 🛠️ Technology Stack
